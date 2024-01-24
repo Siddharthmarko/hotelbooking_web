@@ -1,2 +1,3 @@
 <h2>Hotel Booking and Management App</h2>
-![image](https://github.com/mridulchourasiya/hotelbooking_web/assets/99160348/5209918a-5b99-4f89-8d7e-00e24b670889)
+
+![image](https://github.com/mridulchourasiya/hotelbooking_web/assets/99160348/a241bd56-92b1-4329-8f84-f0c3317cb782)
