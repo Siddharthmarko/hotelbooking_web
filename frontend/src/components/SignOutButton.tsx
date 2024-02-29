@@ -10,7 +10,7 @@ const SignOutButton = () => {
       await queryClient.invalidateQueries();
       showToast({ message: "Sign Out Successful", type: "SUCCESS" });
     },
-    onError: (error: Error) => {
+    onError: () => {
       showToast({ message: "Sign Out Error", type: "ERROR" });
     },
   });
