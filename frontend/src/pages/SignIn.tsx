@@ -27,11 +27,13 @@ const SignIn = () => {
     },
     onError: (error: Error) => {
       showToast({ message: error.message, type: "ERROR" });
+      navigate("/");
     },
   });
 
   const onSubmit = handleSubmit((data) => {
     mutation.mutate(data);
+    navigate("/");
   });
 
   return (
